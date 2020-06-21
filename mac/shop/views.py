@@ -13,26 +13,26 @@ def about(request):
     return render(request,'shop/about.html')
 
 def services(request):
-    return HttpResponse('services shop home')
-    # return render(request,'shop/services.html')
+    # return HttpResponse('services shop home')
+    return render(request,'shop/services.html')
 
 def contact(request):
-    return HttpResponse('contact shop home')
-    # return render(request,'shop/contact.html')
+    # return HttpResponse('contact shop home')
+    return render(request,'shop/contactus.html')
 
 def tracker(request):
-    return HttpResponse('tracker shop home')
-    # return render(request,'shop/tracker.html')
+    # return HttpResponse('tracker shop home')
+    return render(request,'shop/tracker.html')
 
 
 def productview(request):
-    return HttpResponse('product view shop home')
-    # return render(request,'shop/productview.html')
+    # return HttpResponse('product view shop home')
+    return render(request,'shop/productview.html')
 
 def search(request):
-    return HttpResponse('search shop home')
-    # return render(request,'shop/search.html')
+    # return HttpResponse('search shop home')
+    return render(request,'shop/search.html')
 
 def checkout(request):
-    return HttpResponse('checkout shop home')
-    # return render(request,'shop/checkout.html')
+    # return HttpResponse('checkout shop home')
+    return render(request,'shop/checkout.html')
